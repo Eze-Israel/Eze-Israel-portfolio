@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Eze-Israel.github.io",
+  "homepage": "https://Eze-Israel.github.io/Eze-Israel.github.io",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
