@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Eze-Israel.github.io/static/css/main.84df2a98.css",
-    "main.js": "/Eze-Israel.github.io/static/js/main.c0a2fd78.js",
-    "static/media/ISRAEL_RESUME.pdf": "/Eze-Israel.github.io/static/media/ISRAEL_RESUME.721833ae4e7cef700bda.pdf",
-    "static/media/DIGITAL BANK.webp": "/Eze-Israel.github.io/static/media/DIGITAL BANK.8f79fcd618cbbea0a9d3.webp",
-    "static/media/king photo (2).jpg": "/Eze-Israel.github.io/static/media/king photo (2).fc5c84b6591b09c93cbc.jpg",
-    "static/media/Electronics-Mart-eCommerce.jpg": "/Eze-Israel.github.io/static/media/Electronics-Mart-eCommerce.4338b38b10d0003ef4bf.jpg",
-    "static/media/Corner-Store-E-commerce.jpg": "/Eze-Israel.github.io/static/media/Corner-Store-E-commerce.f0ab1da09459f2204696.jpg",
-    "static/media/web-interfaces-portfolio.jpg": "/Eze-Israel.github.io/static/media/web-interfaces-portfolio.3fc6a91a957752d97f31.jpg",
-    "index.html": "/Eze-Israel.github.io/index.html",
-    "main.84df2a98.css.map": "/Eze-Israel.github.io/static/css/main.84df2a98.css.map",
-    "main.c0a2fd78.js.map": "/Eze-Israel.github.io/static/js/main.c0a2fd78.js.map"
+    "main.css": "/Eze-Israel-portfolio/static/css/main.84df2a98.css",
+    "main.js": "/Eze-Israel-portfolio/static/js/main.6f9b4a45.js",
+    "static/media/ISRAEL_RESUME.pdf": "/Eze-Israel-portfolio/static/media/ISRAEL_RESUME.721833ae4e7cef700bda.pdf",
+    "static/media/DIGITAL BANK.webp": "/Eze-Israel-portfolio/static/media/DIGITAL BANK.8f79fcd618cbbea0a9d3.webp",
+    "static/media/king photo (2).jpg": "/Eze-Israel-portfolio/static/media/king photo (2).fc5c84b6591b09c93cbc.jpg",
+    "static/media/Electronics-Mart-eCommerce.jpg": "/Eze-Israel-portfolio/static/media/Electronics-Mart-eCommerce.4338b38b10d0003ef4bf.jpg",
+    "static/media/Corner-Store-E-commerce.jpg": "/Eze-Israel-portfolio/static/media/Corner-Store-E-commerce.f0ab1da09459f2204696.jpg",
+    "static/media/web-interfaces-portfolio.jpg": "/Eze-Israel-portfolio/static/media/web-interfaces-portfolio.3fc6a91a957752d97f31.jpg",
+    "index.html": "/Eze-Israel-portfolio/index.html",
+    "main.84df2a98.css.map": "/Eze-Israel-portfolio/static/css/main.84df2a98.css.map",
+    "main.6f9b4a45.js.map": "/Eze-Israel-portfolio/static/js/main.6f9b4a45.js.map"
   },
   "entrypoints": [
     "static/css/main.84df2a98.css",
-    "static/js/main.c0a2fd78.js"
+    "static/js/main.6f9b4a45.js"
   ]
 }
