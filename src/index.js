@@ -13,7 +13,7 @@ const router = createBrowserRouter(
     <Route
       path='/'
       element={<App />}
-      errorElement={<h1>Sorry an error occured</h1>} 
+      errorElement={<h1>I don't understand the request</h1>} 
     >
       <Route 
         index
