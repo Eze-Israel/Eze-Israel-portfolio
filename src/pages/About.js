@@ -1,7 +1,12 @@
+import { useLayoutEffect } from "react"
 import "../css/About.css"
 import kingPix from "../Images/king photo (2).jpg"
 
 const About = () => {
+  useLayoutEffect(() => {
+    window.scrollTo = 0
+  }, [])
+
   return (
     <div className="About">
       <img src={kingPix} className="About-Pix" alt="a young web developer dressed in suit standing"></img>

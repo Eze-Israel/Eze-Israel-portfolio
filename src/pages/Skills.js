@@ -1,3 +1,4 @@
+import { useLayoutEffect } from "react"
 import "../css/Skills.css"
 import Project from "../components/Project"
 import Languages from "../components/Languages"
@@ -5,6 +6,10 @@ import Languages from "../components/Languages"
 
 
 const Skills = () => {
+  useLayoutEffect(() => {
+    window.scrollTo = 0
+  }, [])
+
   return (
     <div className="skills">
        

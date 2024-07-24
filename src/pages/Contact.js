@@ -1,7 +1,12 @@
+import { useLayoutEffect } from "react"
 import "../css/Contact.css"
 import { FaEnvelope, FaPhone, FaAddressBook, FaWhatsapp, FaGithub,  FaLinkedin} from "react-icons/fa"
 
 const Contact = () => {
+  useLayoutEffect(() => {
+    window.scrollTo = 0
+  }, [])
+
   return (
     <div className="Contact" >
       

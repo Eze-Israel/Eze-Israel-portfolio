@@ -1,7 +1,12 @@
+import { useLayoutEffect } from "react"
 import "../css/Cv.css"
 import myCV from "../MyCv-Pdf/ISRAEL_RESUME.pdf"
 
 const Cv = () => {
+  useLayoutEffect(() => {
+    window.scrollTo = 0
+  }, [])
+
   return (
     <>
       <a href={myCV} target="blank" rel="noopener noreferrer" className="DOWN-BTN" download> Download CV</a>
