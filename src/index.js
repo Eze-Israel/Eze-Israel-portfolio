@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
+import { createHashRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Skills from "./pages/Skills"
 import Cv from "./pages/Cv"
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route
       path='/'
