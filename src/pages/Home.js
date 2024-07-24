@@ -5,7 +5,7 @@ import Intro from "../components/Intro"
 
 const Home = () => {
   useLayoutEffect(() => {
-    window.scrollTo = 0
+    window.scrollTo(0, 0)
   }, [])
 
   return (

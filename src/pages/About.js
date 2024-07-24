@@ -4,7 +4,7 @@ import kingPix from "../Images/king photo (2).jpg"
 
 const About = () => {
   useLayoutEffect(() => {
-    window.scrollTo = 0
+    window.scrollTo(0, 0)
   }, [])
 
   return (

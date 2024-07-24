@@ -4,7 +4,7 @@ import myCV from "../MyCv-Pdf/ISRAEL_RESUME.pdf"
 
 const Cv = () => {
   useLayoutEffect(() => {
-    window.scrollTo = 0
+    window.scrollTo(0, 0)
   }, [])
 
   return (

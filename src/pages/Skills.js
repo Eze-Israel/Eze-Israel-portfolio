@@ -7,7 +7,7 @@ import Languages from "../components/Languages"
 
 const Skills = () => {
   useLayoutEffect(() => {
-    window.scrollTo = 0
+    window.scrollTo(0, 0)
   }, [])
 
   return (

@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone, FaAddressBook, FaWhatsapp, FaGithub,  FaLinkedin} 
 
 const Contact = () => {
   useLayoutEffect(() => {
-    window.scrollTo = 0
+    window.scrollTo(0, 0)
   }, [])
 
   return (
