@@ -20,7 +20,7 @@ const Intro = () => {
          it's like having a virtual storefront that always open and welcoming to customers, no matter how they choose to acces it.</p>
          
         <p className="text-plane"> Reach out to me directly on whatsApp today to give your 
-          business optimum visibility accros all devices <a href="https://wa.me/07061033459" rel="norerrer"> <FaWhatsapp  className="WatsBtn"/></a></p>
+          business optimum visibility accros all devices <a href="https://wa.me/+2347061033459" rel="norerrer"> <FaWhatsapp  className="WatsBtn"/></a></p>
       </div>
       
     </div>

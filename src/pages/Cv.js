@@ -1,6 +1,6 @@
 import { useLayoutEffect } from "react"
 import "../css/Cv.css"
-import myCV from "../MyCv-Pdf/ISRAEL_RESUME.pdf"
+import myCV from "../MyCv-Pdf/ISRAEL_RESUME1.pdf"
 
 const Cv = () => {
   useLayoutEffect(() => {

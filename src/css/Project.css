@@ -141,7 +141,7 @@ cursor: pointer;
 @media screen and (max-width: 900px) {
 
     .Project-div{
-        padding: 0 5px;
+        padding: 0 15px;
      }
 
      .Topic{
@@ -154,6 +154,7 @@ cursor: pointer;
     .bankservices{
         display: block;
         width: 100%;
+        object-fit: cover;
     }
     .CBT{
         width: 100%;
@@ -179,7 +180,7 @@ cursor: pointer;
 @media screen and (max-width: 600px) {
 
     .Project-div{
-       padding: 0 5px;
+       padding: 0 15px;
     }
 
     .Topic{
@@ -191,6 +192,7 @@ cursor: pointer;
     .bankservices{
         display: block;
         width: 100%;
+        object-fit: cover;
     }
     .CBT{
         width: 100%;

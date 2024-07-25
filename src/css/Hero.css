@@ -52,7 +52,7 @@
        
     }
     .text-div{
-        padding: 0 50px;
+        padding: 0 40px;
         margin-top: 200px;
     }
     .text-alone{
@@ -62,12 +62,6 @@
     }
     
 } 
-
-
-
-
-
-
 
 
 
@@ -81,17 +75,18 @@
         width: 100%;
     }
     .welcome{
-        font-size: 30px;
+        font-size: 25px;
      
        
     }
     .text-div{
-        padding: 0 40px;
-        margin-top: 200px;
+        padding: 0 20px;
+        margin-top: 180px;
+        text-align: center;
     }
     .text-alone{
-        text-align: center;
-        font-size: 19px;
+        font-size: 15px;
+        
         
     }
   

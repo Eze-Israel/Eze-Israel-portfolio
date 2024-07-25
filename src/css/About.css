@@ -39,26 +39,8 @@
     border: none;
     
  }
- .About-btn{
-    font-size: large;
-    padding: 6px 10px;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    
- }
- .About-btn:hover{
-    background-color: #a05;
-    
- }
-
-
-
-
-
-
-
+ 
+ 
 
  /* TABLET VIEW */
  @media screen and (max-width: 900px){
@@ -91,14 +73,13 @@
 
  
 
-
  /* MOBILE VIEW */
 
 @media screen and (max-width: 600px) {
 
     .About{
         display: flex;
-        padding: 45px;
+        padding: 20px;
         flex-direction: column;
         gap: 40px;
         align-items: center;
@@ -120,7 +101,5 @@
         order: 1;
         
     }
-    .About-btn{
-        padding: 5px 6px;
-    }
+    
 }

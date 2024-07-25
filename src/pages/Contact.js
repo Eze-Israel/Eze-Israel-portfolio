@@ -14,7 +14,7 @@ const Contact = () => {
         <p className="header">Contact Information</p>
         <i className="con-text"><FaEnvelope className="con-icons"/> {" " }  Ezeisraeloluoma123@gmail.com</i>
         <p className="con-text"><FaPhone className="con-icons"/> {" " }07061033459</p>
-        <p className="website"><FaAddressBook className="con-icons"/> Website@www.EzeIsrael.io {"👋🏻 "}</p>
+        <p className="website"><FaAddressBook className="con-icons"/> https://eze-israel.github.io/Eze-Israel-portfolio/ {"👋🏻 "}</p>
         <h3 className="follow">CONTACT ME ON</h3>
         <p className="Icons">
         <a href="https://linkedin.com/in/israel-eze-ab471a305"  rel="norerrer"> <FaLinkedin  className="icon-setup"/>  </a>

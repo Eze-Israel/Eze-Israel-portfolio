@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../css/Header.css"
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes , FaPhone} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -21,6 +21,7 @@ const Header = () => {
   return (
     <div className="Header">
       <span><Link to="/" className="name" onClick={handlelogoname}> Eze Israel O</Link></span> 
+      <p className="phone"><FaPhone className="phone"/> {" " }{ " "}+2347061033459</p>
       <div className="mobile-icon" onClick={handleMobileChange}>
         {mobile ? <FaBars /> : <FaTimes />}
       </div>
