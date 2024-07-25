@@ -33,6 +33,23 @@
     text-decoration: none;
     color: #A05;
     font-weight: bold;
+    position: relative;
+
+}
+
+.nav-item::after{
+    content: " ";
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: rgb(18, 234, 133);
+    left: 0;
+    transition: 1s;
+    bottom: -5px;
+
+}
+.nav-item:hover::after  {
+    width: 100%;
 }
 
 .nav-item:hover {
