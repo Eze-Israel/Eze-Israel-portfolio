@@ -4,12 +4,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 
+
 function App() {
   return (
     <div className="App">
       <Header />
       <div className="outlet">
-        <Outlet />
+      <Outlet />
       </div>
       <Footer />
     </div>

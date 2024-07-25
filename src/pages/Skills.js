@@ -1,7 +1,7 @@
 import { useLayoutEffect } from "react"
 import "../css/Skills.css"
-import Project from "../components/Project"
 import Languages from "../components/Languages"
+import Project from "../components/Project"
 
 
 
@@ -45,7 +45,7 @@ const Skills = () => {
    </div>
       
       <Languages/>
-      <Project/>
+      <Project />
     </div>
   )
 }

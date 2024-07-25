@@ -13,7 +13,7 @@ const router = createHashRouter(
     <Route
       path='/'
       element={<App />}
-      errorElement={<h1>I don't understand the request</h1>} 
+      errorElement={<a href='./'><h1>Sorry! an error occured click here to go back</h1></a>} 
     >
       <Route 
         index
@@ -33,11 +33,12 @@ const router = createHashRouter(
       />
       <Route 
         path='cv'
-        element={<Cv  />}
+        element={<Cv />}
       />
     </Route>
   )
 )
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

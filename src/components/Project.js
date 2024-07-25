@@ -1,4 +1,5 @@
 import "../css/Project.css"
+import { useLayoutEffect } from "react"
 import exam1 from "../Images/CBT EXAM PROJ.jpg"
 import exam from "../Images/CBT PROJECT.jpg"
 import  markets from "../Images/Corner-Store-E-commerce.jpg"
@@ -8,6 +9,10 @@ import bank from "../Images/DIGITAL BANK.webp"
 
 
 const Project = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
         <div className="Project-div">
           <h1 className="Topic">Projects</h1>

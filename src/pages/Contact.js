@@ -13,7 +13,7 @@ const Contact = () => {
       <div className="Information">
         <p className="header">Contact Information</p>
         <i className="con-text"><FaEnvelope className="con-icons"/> {" " }  Ezeisraeloluoma123@gmail.com</i>
-        <p className="con-text"><FaPhone className="con-icons"/> {" " }07061033459</p>
+        <p className="con-text"><FaPhone className="con-icons"/> {" " }+2347061033459, +2349052041491 </p>
         <p className="website"><FaAddressBook className="con-icons"/> https://eze-israel.github.io/Eze-Israel-portfolio/ {"👋🏻 "}</p>
         <h3 className="follow">CONTACT ME ON</h3>
         <p className="Icons">
