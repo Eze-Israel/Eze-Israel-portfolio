@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Eze-Israel-portfolio/static/css/main.79fb4ca6.css",
-    "main.js": "/Eze-Israel-portfolio/static/js/main.d96439dd.js",
-    "static/media/ISRAEL_RESUME.pdf": "/Eze-Israel-portfolio/static/media/ISRAEL_RESUME.721833ae4e7cef700bda.pdf",
+    "main.css": "/Eze-Israel-portfolio/static/css/main.2394fc67.css",
+    "main.js": "/Eze-Israel-portfolio/static/js/main.f0b12e24.js",
+    "static/media/ISRAEL_RESUME1.pdf": "/Eze-Israel-portfolio/static/media/ISRAEL_RESUME1.92e79f1a37193c98dc03.pdf",
     "static/media/DIGITAL BANK.webp": "/Eze-Israel-portfolio/static/media/DIGITAL BANK.8f79fcd618cbbea0a9d3.webp",
     "static/media/king photo (2).jpg": "/Eze-Israel-portfolio/static/media/king photo (2).fc5c84b6591b09c93cbc.jpg",
     "static/media/Electronics-Mart-eCommerce.jpg": "/Eze-Israel-portfolio/static/media/Electronics-Mart-eCommerce.4338b38b10d0003ef4bf.jpg",
     "static/media/Corner-Store-E-commerce.jpg": "/Eze-Israel-portfolio/static/media/Corner-Store-E-commerce.f0ab1da09459f2204696.jpg",
     "static/media/web-interfaces-portfolio.jpg": "/Eze-Israel-portfolio/static/media/web-interfaces-portfolio.3fc6a91a957752d97f31.jpg",
     "index.html": "/Eze-Israel-portfolio/index.html",
-    "main.79fb4ca6.css.map": "/Eze-Israel-portfolio/static/css/main.79fb4ca6.css.map",
-    "main.d96439dd.js.map": "/Eze-Israel-portfolio/static/js/main.d96439dd.js.map"
+    "main.2394fc67.css.map": "/Eze-Israel-portfolio/static/css/main.2394fc67.css.map",
+    "main.f0b12e24.js.map": "/Eze-Israel-portfolio/static/js/main.f0b12e24.js.map"
   },
   "entrypoints": [
-    "static/css/main.79fb4ca6.css",
-    "static/js/main.d96439dd.js"
+    "static/css/main.2394fc67.css",
+    "static/js/main.f0b12e24.js"
   ]
 }
