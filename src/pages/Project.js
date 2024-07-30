@@ -15,14 +15,14 @@ const Project = () => {
   
   return (
         <div className="Project-div">
-          <h1 className="Topic">Projects</h1>
+          <h1 className="Topic">PROJECTS</h1>
           {" "}
          <div className="first-projects"> 
         <div className="bankservices">
         <img src={bank} alt="BANK-PHOTO" className="BANK-PHOTO" />
         <h2>Digital Banking Services Limited </h2>
         {" "}
-        <strong className="Tech-Stack">Tech Stack</strong>
+        <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
         <p>HTML5</p>
         <p>CSS3</p>
         <p>Javascript</p>
@@ -37,7 +37,7 @@ const Project = () => {
         <img src={exam1} alt="CBT" className="CBTPIX" />
          <h2>Computer Based Exam Site/App </h2>
          {" "}
-         <strong className="Tech-Stack">Tech Stack</strong>
+         <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
          <p>HTML5</p>
          <p>CSS3</p>
          <p>Javascript</p>
@@ -54,9 +54,9 @@ const Project = () => {
          <div className="shopcarts">
         <img src={markets2} alt="E-MART" className="E-MARTPIX" /> 
         <img src={markets} alt="E-MART" className="E-MARTPIX" />
-         <h2>King Israel E-marts/Commerce Services Limited</h2>
+         <h2> E-Marts/Commerce Services </h2>
          {" "}
-         <strong className="Tech-Stack">Tech Stack</strong>
+         <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
          <p>HTML5</p>
          <p>CSS3</p>
          <p>Javascript</p>
@@ -70,9 +70,9 @@ const Project = () => {
          
          <div className="logistics">
           <img src={logistic} alt="logistics" className="logisticsPIX" />
-         <h2>King Israel logistics Services Limited</h2>
+         <h2> Logistics Courier Services Website </h2>
          {" "}
-         <strong class="Tech-Stack">Tech Stack</strong>
+         <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
          <p>HTML5</p>
          <p>CSS3</p>
          <p>Javascript</p>
@@ -81,7 +81,7 @@ const Project = () => {
          <p>Tailwind</p>
          <p>Firebase</p>
          {" "}
-         <a href="#"><button class="BTN">View Demo</button></a>
+         <a href="#"><button className="BTN">View Demo</button></a>
 
          </div>
 

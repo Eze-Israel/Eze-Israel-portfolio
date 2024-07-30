@@ -1,7 +1,7 @@
 import { useLayoutEffect } from "react"
 import "../css/Skills.css"
 import Languages from "../components/Languages"
-import Project from "../components/Project"
+
 
 
 
@@ -43,10 +43,14 @@ const Skills = () => {
    {" "}
    <p>Collaborating effectively with colleagues to achieve common creative goals.</p>
    </div>
+   
+   
+   
       
-      <Languages/>
-      <Project />
+   <Languages/>
     </div>
+    
+    
   )
 }
 

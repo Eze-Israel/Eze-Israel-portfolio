@@ -28,9 +28,11 @@ const Header = () => {
       <ul className={mobile ? 'nav-menu' : 'nav-menu show'}>
         <li> <Link to="/" className="nav-item" onClick={handleMobileChange}>Home</Link></li>
         <li><Link to="about" className="nav-item" onClick={handleMobileChange}>About</Link></li>
-        <li><Link to="skills" className="nav-item" onClick={handleMobileChange}>Skills & Projects</Link></li>
+        <li><Link to="skills" className="nav-item" onClick={handleMobileChange}>Skills</Link></li>
+        <li><Link to="project" className="nav-item" onClick={handleMobileChange}>Projects</Link></li>
         <li><Link to="contact" className="nav-item" onClick={handleMobileChange}>Contact</Link></li>
         <li><Link to="cv" className="nav-item" onClick={handleMobileChange}>MyCV</Link></li>
+        
       </ul>
     </div>
   )

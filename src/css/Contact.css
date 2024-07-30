@@ -4,6 +4,8 @@
     padding: 0 100px;
     margin-top: 12px;
     gap: 30px;
+    align-items: center;
+    text-align: center;
    /* min-height: 70vw;  */
     
     
@@ -27,8 +29,8 @@ color: orange;
 font-size: 20px;
 }
 
-.con-text{
-    font-size: 20px;
+.con-text, .website{
+    font-size: 30px;
 }
 .title{
 font-size: xx-large;
@@ -91,8 +93,8 @@ font-size: xx-large;
     .icon-setup{
         font-size: 35px;
     }
-    .con-text{
-        font-size: 10px;
+    .con-text, .website{
+        font-size: 20px;
     }
 }
 
@@ -117,8 +119,10 @@ font-size: xx-large;
     .icon-setup{
         font-size: 30px;
     }
-    .con-text{
+    .con-text, .website{
         font-size: 15px;
     }
-
+    .con-icons{
+        font-size: 15px;
+    }
 }

@@ -3,49 +3,49 @@
     padding: 0 100px;
     margin-top: 50px;
     gap: 30px;
-    flex-direction: column;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    margin-bottom: 80px;
+    
     
 }
 .first{
-    display: flex;
+    display:block;
     width: 100%;
     object-fit: contain;
-    gap: 30px;
+    gap: 20px;
     cursor: pointer;
     transform: scale(1);
     transition: transform 2s  ease-in;
     box-shadow: 2px 2px 1px gray;
-    
-    
-    
+   
 }
 .second{
-    display: flex;
+    display:block;
     width: 100%;
     object-fit: contain;
-    gap: 30px;
+    gap: 20px;
     cursor: pointer;
     transform: scale(1);
     transition: transform 2s  ease-in;
     box-shadow: 2px 2px 1px gray;
-    
 }
 .third{
-    display: flex;
+   display:block;
     width: 100%;
     object-fit: contain;
-    gap: 30px;
+    gap: 20px;
     cursor: pointer;
     transform: scale(1);
     transition: transform 2s  ease-in;
-    box-shadow: 1px 1px 1px rgb(18, 17, 17);
+    box-shadow: 2px 2px 1px gray;
     
 }
 .fourth{
-    display: flex;
+    display:block;
     width: 100%;
     object-fit: contain;
-    gap: 30px;
+    gap: 20px;
     cursor: pointer;
     transform: scale(1);
     transition: transform 2s  ease-in;
@@ -53,29 +53,28 @@
     
 }
 .lan-img1, .lan-img2, .lan-img3, .lan-img4, .lan-img5, .lan-img6, .lan-img7, .lan-img8{
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    width: 50%;
+    margin-bottom: 40px;
+    
     
 }
 
 .first:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 .second:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 .third:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
 .fourth:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 
 }
+
 
 
 
@@ -85,6 +84,76 @@
     .Languages{
         padding: 0 25px;
     }
+
+    .first{
+        gap: 20px;
+        order: 0;
+        width: 60%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .second{
+        order: 1;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
+    }
+    .third{
+        order: 2;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
+    }
+    .fourth{
+        order: 3;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
+    }
+    .Languages{
+        padding: 0 25px;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+    .lan-img1, .lan-img2, .lan-img3, .lan-img4, .lan-img5, .lan-img6, .lan-img7, .lan-img8 {
+        margin-bottom: 40px;
+        width: 70%;
+      
+}
     
   
 }
@@ -92,13 +161,75 @@
 /* MOBILE VIEW */
 @media screen and (max-width: 600px) {
     
-    .first, .second, .third, .fourth{
+    .first{
         gap: 20px;
+        order: 0;
+        width: 60%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .second{
+        order: 1;
+        gap: 20px;
+        order: 0;
         width: 100%;
         padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
+    }
+    .third{
+        order: 2;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
+    }
+    .fourth{
+        order: 3;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        
     }
     .Languages{
         padding: 0 25px;
+        gap: 20px;
+        order: 0;
+        width: 100%;
+        padding: 10px ;
+        flex-direction: column;
+        justify-content: space-between;
+        
     }
+    
+    .lan-img1, .lan-img2, .lan-img3, .lan-img4, .lan-img5, .lan-img6, .lan-img7, .lan-img8 {
+        margin-bottom: 40px;
+        width: 60%;
+        
 
+
+}
 }

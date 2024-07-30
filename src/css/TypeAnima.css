@@ -1,0 +1,20 @@
+.TypeAnima{
+    text-align: center;
+    border-radius: 30px;
+    font-size: 2.5em;
+    position: absolute;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#af8;
+    
+    
+}
+
+
+@media screen and (max-width:900px) {
+    .TypeAnima{
+        background-color: rgb(12, 16, 12); 
+        font-size: 1.5em;
+
+    }
+}

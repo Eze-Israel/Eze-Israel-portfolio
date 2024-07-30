@@ -7,11 +7,12 @@
 }
 .Topic{
     font-size: 40px;
-    border-radius: 20px;
+    border-radius: 50%;
    background-color: rgb(129, 86, 203);
    padding: 10px 20px;
    margin-top: 25px;
    margin-bottom: 30px;
+   text-align: center;
 }
 
 .Topic:hover{
@@ -59,24 +60,29 @@ cursor: pointer;
 
 
 .BTN{
-    background-color: rgb(234, 156, 156);
+    background-color: rgb(134, 235, 19);
     color: white;
-    padding: 4px 4px;
-    font-size: small;
+    padding: 5px 8px;
+    font-size: x-large;
     cursor: pointer;
     border-radius: 12px;
     border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
     
 }
 
 .BTN:hover{
-    color: rgb(58, 10, 232);
+    color: rgb(247, 88, 9);
 
 }
 
 .Tech-Stack{
     margin-bottom: 10px;
     color: rgb(124, 114, 240);
+}
+.Tech-S{
+    margin-top: 12px;
 }
 
 
@@ -174,6 +180,18 @@ cursor: pointer;
         width: 100%;
     }
 
+    .BTN{
+        background-color: rgb(134, 235, 19);
+        color: white;
+        padding: 5px 8px;
+        font-size: large;
+        cursor: pointer;
+        border-radius: 12px;
+        border: none;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        
+    }
 
 }
 

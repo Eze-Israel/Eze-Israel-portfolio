@@ -2,6 +2,7 @@ import { useLayoutEffect } from "react"
 import Hero from "../components/Hero"
 import "../css/Home.css"
 import Intro from "../components/Intro"
+import ExampleComponent from "../components/TypeAnimation"
 
 const Home = () => {
   useLayoutEffect(() => {
@@ -9,9 +10,12 @@ const Home = () => {
   }, [])
 
   return (
+
     <div>
+      <ExampleComponent />
   <Hero/>
   <Intro/>
+  
   
 
     </div>

@@ -119,7 +119,7 @@
         background-color: #A05;
         border-radius: 20px;
         z-index: 1000;
-        transition: right 1s;
+        transition: right 0.5s;
     }
 
     .nav-menu.show {

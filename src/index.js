@@ -8,6 +8,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import Skills from "./pages/Skills"
 import Cv from "./pages/Cv"
+import Project from './pages/Project';
 const router = createHashRouter(
   createRoutesFromElements(
     <Route
@@ -34,6 +35,10 @@ const router = createHashRouter(
       <Route 
         path='cv'
         element={<Cv />}
+      />
+      <Route 
+        path='project'
+        element={<Project/>}
       />
     </Route>
   )
