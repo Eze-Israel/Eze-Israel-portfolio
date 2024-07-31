@@ -1,6 +1,7 @@
 import { useLayoutEffect } from "react"
 import "../css/Contact.css"
 import { FaEnvelope, FaPhone, FaAddressBook, FaWhatsapp, FaGithub,  FaLinkedin} from "react-icons/fa"
+import ContactForm from "../components/ContactForm"
 
 const Contact = () => {
   useLayoutEffect(() => {
@@ -26,7 +27,7 @@ const Contact = () => {
       </div>
       
 
-
+      <ContactForm />
     </div>
   )
 }
