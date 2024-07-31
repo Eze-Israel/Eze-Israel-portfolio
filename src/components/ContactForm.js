@@ -48,6 +48,26 @@ function ContactForm() {
         errors={state.errors}
       />
       </div>
+      
+      <div className="Div-input">
+      <label htmlFor="phone">
+        Phone Number
+      </label>
+      <input
+        id="phone"
+        type="tel" 
+        name="phone"
+        placeholder='phone'
+        className="tel"
+        required
+      />
+      <ValidationError 
+        prefix="tel" 
+        field="tel"
+        errors={state.errors}
+      />
+      </div>
+
       <div className="Div-input">
       <label htmlFor="Select">
         Messenger

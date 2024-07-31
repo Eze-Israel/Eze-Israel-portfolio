@@ -46,6 +46,10 @@
   width: 100%;
   height: 5vh;
 }
+.tel{
+    width:100% ; 
+   height: 25px;
+}
 
 .Div-input{
     margin-top: 5px;
