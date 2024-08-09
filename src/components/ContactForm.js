@@ -1,5 +1,3 @@
-// Make sure to run npm install @formspree/react
-// For more help visit https://formspr.ee/react-help
 import "../css/ContactForm.css"
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -84,10 +82,10 @@ function ContactForm() {
        <option value='Mentor'>Mentor</option>
        <option value='Referrer'>Referrer</option>
        <option value='Blogger'>Blogger</option>
-       <option value='Students'>Students</option>
+       <option value='Students'>Student</option>
        <option value='Industry Peers'>Industry Peers</option>
        <option value='Collaborator'>Collaborator</option>
-       <option value='Curious Browsers'>Curious Browsers</option>
+       <option value='Curious Browsers'>Curious Browser</option>
         </select>
       <ValidationError 
         prefix="Lastname" 

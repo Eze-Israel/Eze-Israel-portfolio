@@ -6,6 +6,8 @@ import  markets from "../Images/Corner-Store-E-commerce.jpg"
 import  markets2 from "../Images/Electronics-Mart-eCommerce.jpg"
 import  logistic from "../Images/logistics service.jpg"
 import bank from "../Images/DIGITAL BANK.webp"
+import Crud from "../Images/CRUD.jpg"
+import CBT from "../Images/CBT-EXAM.jpg"
 
 
 const Project = () => {
@@ -33,8 +35,8 @@ const Project = () => {
          {" "}
          <a href="#"><button className="BTN">View Demo</button></a>
         </div>
-         <div className="CBT" ><img src={exam} alt="CBT-proj" className="CBTPIX" />
-        <img src={exam1} alt="CBT" className="CBTPIX" />
+         <div className="CBT" ><img src={CBT } alt="CBT-proj" className="CBTPIX" />
+        
          <h2>Computer Based Exam Site/App </h2>
          {" "}
          <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
@@ -46,7 +48,7 @@ const Project = () => {
          <p>Tailwind</p>
          <p>Firebase</p>
          {" "}
-         <a href="#"><button className="BTN">View Demo</button></a>
+         <a href="https://eze-israel.github.io/PGCBT/" target="blank"><button className="BTN">View Demo</button></a>
         </div>
      </div> 
          
@@ -71,6 +73,22 @@ const Project = () => {
          <div className="logistics">
           <img src={logistic} alt="logistics" className="logisticsPIX" />
          <h2> Logistics Courier Services Website </h2>
+         {" "}
+         <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
+         <p>HTML5</p>
+         <p>CSS3</p>
+         <p>Javascript</p>
+         <p>React</p>
+         <p>Redux</p>
+         <p>Tailwind</p>
+         <p>Firebase</p>
+         {" "}
+         <a href="#"><button className="BTN">View Demo</button></a>
+
+         </div>
+         <div className="CRUD">
+          <img src={Crud} alt="Crud" className="crudPIX" />
+         <h2>A Create, Read, Update and Delete Web App </h2>
          {" "}
          <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
          <p>HTML5</p>
