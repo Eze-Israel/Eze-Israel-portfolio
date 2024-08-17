@@ -97,9 +97,8 @@ const Project = () => {
          <p>React</p>
          <p>Redux</p>
          <p>Tailwind</p>
-         <p>Firebase</p>
          {" "}
-         <a href="#"><button className="BTN">View Demo</button></a>
+         <a href="https://eze-israel.github.io/CRUD/" target="blank"><button className="BTN">View Demo</button></a>
 
          </div>
 
