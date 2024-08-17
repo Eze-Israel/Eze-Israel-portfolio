@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Eze-Israel-portfolio/static/css/main.bd044726.css",
-    "main.js": "/Eze-Israel-portfolio/static/js/main.edb2002d.js",
+    "main.js": "/Eze-Israel-portfolio/static/js/main.8d7e5fa6.js",
     "static/media/ISRAEL_RESUME1.pdf": "/Eze-Israel-portfolio/static/media/ISRAEL_RESUME1.92e79f1a37193c98dc03.pdf",
     "static/media/DIGITAL BANK.webp": "/Eze-Israel-portfolio/static/media/DIGITAL BANK.8f79fcd618cbbea0a9d3.webp",
     "static/media/king photo (2).jpg": "/Eze-Israel-portfolio/static/media/king photo (2).fc5c84b6591b09c93cbc.jpg",
@@ -11,10 +11,10 @@
     "static/media/web-interfaces-portfolio.jpg": "/Eze-Israel-portfolio/static/media/web-interfaces-portfolio.3fc6a91a957752d97f31.jpg",
     "index.html": "/Eze-Israel-portfolio/index.html",
     "main.bd044726.css.map": "/Eze-Israel-portfolio/static/css/main.bd044726.css.map",
-    "main.edb2002d.js.map": "/Eze-Israel-portfolio/static/js/main.edb2002d.js.map"
+    "main.8d7e5fa6.js.map": "/Eze-Israel-portfolio/static/js/main.8d7e5fa6.js.map"
   },
   "entrypoints": [
     "static/css/main.bd044726.css",
-    "static/js/main.edb2002d.js"
+    "static/js/main.8d7e5fa6.js"
   ]
 }
