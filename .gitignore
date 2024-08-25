@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+src/components/ContactForm.js
+src/components/TypeAnimation.js
+src/pages/Cv.js
 
 # testing
 /coverage
