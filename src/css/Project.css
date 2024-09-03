@@ -1,6 +1,8 @@
 .Project-div{
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     padding: 0 100px;
     
     
@@ -13,6 +15,7 @@
    margin-top: 25px;
    margin-bottom: 30px;
    text-align: center;
+   width: 100%;
 }
 
 .Topic:hover{
@@ -31,6 +34,11 @@
 
 
 .second-project{
+    display: flex;
+    gap: 30px;
+}
+
+.Third-project{
     display: flex;
     gap: 30px;
 }
@@ -157,7 +165,31 @@ cursor: pointer;
 .crudPIX{
     margin-bottom: 20px;
     width: 100%;
+    height: fit-content;
     cursor: pointer;
+}
+.BookApp{
+    display: block;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.1);
+    padding: 0 10px;
+    width: 50%;
+}
+.booklist{
+    display: block;
+    margin-bottom: 50px;
+    padding:  10px;
+    width: 100%;
+    height: 100%;
+}
+.booklist-pix{
+    width: 100%;
+    margin-bottom: 20px;
+    height: fit-content;
+    cursor: pointer;
+}
+.booklist-pix:hover{
+    width: 102% 
 }
 
 
@@ -166,38 +198,43 @@ cursor: pointer;
 
     .Project-div{
         padding: 0 15px;
-     }
-
+        }
+     
      .Topic{
-        font-size: x-large;
-    }
-
-    .Topic:hover{
-        font-size: xx-large;
-    }
-    .bankservices{
-        display: block;
+         font-size: x-large;
+        }
+        
+        .Topic:hover{
+            font-size: xx-large;
+        }
+        .bankservices{
+            width: 100%;
+            object-fit: cover;
+        }
+        .first-projects{
+            flex-direction: column;
+        }
+        .second-project{
+            flex-direction: column;
+        }
+        .Third-project{
+            flex-direction: column;
+        }
+       .CBT{
         width: 100%;
-        object-fit: cover;
-    }
-    .CBT{
+        }
+       .logistics{
         width: 100%;
-    }
-    .first-projects{
-        flex-direction: column;
-    }
-    .second-project{
-        flex-direction: column;
-    }
-    .logistics{
-        width: 100%;
-    }
-    .CRUD{
+       }
+      .CRUD{
         width: 100%; 
-    }
-    .shopcarts{
+       }
+      .shopcarts{
         width: 100%;
-    }
+      }
+      .BookApp{
+        width: 100%;
+      }
 
     .BTN{
         background-color: rgb(134, 235, 19);
@@ -220,6 +257,8 @@ cursor: pointer;
 
     .Project-div{
        padding: 0 15px;
+       display: flex;
+       flex-direction: column;
     }
 
     .Topic{
@@ -229,7 +268,6 @@ cursor: pointer;
         font-size: x-large;
     }
     .bankservices{
-        display: block;
         width: 100%;
         object-fit: cover;
     }
@@ -242,10 +280,19 @@ cursor: pointer;
     .second-project{
         flex-direction: column;
     }
+    .Third-project{
+        flex-direction: column;
+    }
     .logistics{
         width: 100%;
     }
     .shopcarts{
+        width: 100%;
+    }
+    .BookApp{
+        width: 100%;
+    }
+    .CRUD{
         width: 100%;
     }
 }

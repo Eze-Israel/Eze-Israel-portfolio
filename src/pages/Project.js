@@ -1,13 +1,13 @@
 import "../css/Project.css"
 import { useLayoutEffect } from "react"
-import exam1 from "../Images/CBT EXAM PROJ.jpg"
-import exam from "../Images/CBT PROJECT.jpg"
 import  markets from "../Images/Corner-Store-E-commerce.jpg"
 import  markets2 from "../Images/Electronics-Mart-eCommerce.jpg"
 import  logistic from "../Images/logistics service.jpg"
 import bank from "../Images/DIGITAL BANK.webp"
 import Crud from "../Images/CRUD.jpg"
 import CBT from "../Images/CBT-EXAM.jpg"
+import booklist from "../Images/bookList.jpg"
+
 
 
 const Project = () => {
@@ -69,7 +69,26 @@ const Project = () => {
          {" "}
          <a href="#"><button className="BTN">View Demo</button></a>
         </div>
+        <div className="BookApp">
+         <div className="booklist">
+        <img src={booklist} alt="booklist" className="booklist-pix" /> 
+         <h2> A Book Library WEB App </h2>
+         {" "}
+         <p className="Tech-S"><strong className="Tech-Stack">Tech Stack</strong></p>
+         <p>HTML5</p>
+         <p>CSS3</p>
+         <p>Javascript</p>
+         <p>React</p>
+         <p>Redux</p>
+         <p>Tailwind</p>
+         <p>Firebase</p>
+         {" "}
+         <a href="https://eze-israel.github.io/BooksLB/"><button className="BTN">View Demo</button></a>
+        </div>
+        </div>
+        </div>
          
+        <div className="Third-project">
          <div className="logistics">
           <img src={logistic} alt="logistics" className="logisticsPIX" />
          <h2> Logistics Courier Services Website </h2>
@@ -101,8 +120,9 @@ const Project = () => {
          <a href="https://eze-israel.github.io/CRUD/" target="blank"><button className="BTN">View Demo</button></a>
 
          </div>
+         </div>
 
-        </div>
+        
         
 
 
